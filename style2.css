@@ -28,14 +28,20 @@ h2{
 }
 
 
-div{
+.box {
   
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15%;
-    width: 60%;
+  padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.9s;
+    box-shadow: #010714;
+  
     color: #010714;
     background: #8f93b8;
+    width: fit-content;
+    margin: auto;
 }
